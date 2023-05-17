@@ -15,17 +15,6 @@ app.use(express.static('public'));
 app.use(express.json());
 
 
-// app.get("/api/users", (_, res) => {
-//     db.query('SELECT * FROM users').then((data) => {
-//         res.json(data.rows);
-//     });
-//  });
-
-//  app.get("/api/portfolio", (_, res) => {
-//     db.query('SELECT * FROM portfolio_items').then((data) => {
-//         res.json(data.rows);
-//     });
-// });
 
 app.get("/api/login", (_, res) => {
     db.query('SELECT * FROM users').then((data) => {

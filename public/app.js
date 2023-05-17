@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
             alert('An error occurred during registration');
           }
     
-        // Close the modal
+       
         signupmodal.hide();
       });
         
@@ -224,11 +224,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     }
                 }
-                // Rest of the code
+                
             })
             .catch(error => {
                 console.error(error);
-                // Handle the error
+              
             });
 
             const editButton = document.createElement('button');
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", function() {
             var updatedTitle = document.querySelector("#updateTitle").value;
             var updatedDescription = document.querySelector("#updateDescription").value;
           
-            // Perform further actions with the updated title and description, such as sending them to a server or performing validation
+            
             console.log("Updated Title:", updatedTitle);
             console.log("Updated Description:", updatedDescription);
 
@@ -303,10 +303,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     }
                 }
-                // Rest of the code
+               
             })
           
-            // Close the modal
+
             updateModal.hide();
           });
 
@@ -316,11 +316,11 @@ document.addEventListener("DOMContentLoaded", function() {
            }
         } catch (error) {
             console.error(error);
-            // Handle error occurred during login
+           
             console.log('An error occurred during login');
         
           }
-          // Close the modal
+         
           loginModal.hide();
         });
     
